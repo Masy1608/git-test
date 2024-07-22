@@ -4,9 +4,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "dev": "node config.js && vite",
+    "build": "node config.js && vite build",
+    "preview": "node config.js && vite preview"
   },
   "dependencies": {
     "vue": "^3.4.29"
